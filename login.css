@@ -1,0 +1,59 @@
+
+body{
+    background: url(./images/logingym.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 48px;
+    margin-left: 1000px;
+    margin-top: 200px;
+    display: inline-block;
+}
+label{
+    color: hsl(0, 100%, 99%);
+}
+.inside{
+padding-bottom: 50px;
+margin-left: 1000px;
+padding-left: 5px;
+
+}
+.bt{
+    margin-top: 0px;
+    margin-left: 1000px;
+    
+}
+#sb{
+    margin-right: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 10px;
+    color: white;
+    
+}
+#ps{
+    margin-right: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#image{
+  margin-left: 200px;
+  margin-top: -250px;
+  margin-bottom: 400px;
+  display: inline-block;
+}
+@media screen and (max-width:414px)  {
+    #image{
+        width: 90%;
+        height: 90%;
+    }
+}
